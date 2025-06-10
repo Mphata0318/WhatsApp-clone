@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.chat-container {
+    width: 350px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+}
+
+.chat-header {
+    margin: 0;   
+    color: #1daa61;
+    padding: 10px;
+    border-bottom: 1px #ccc;
+}
+
+#search{
+    background-color: #f1eeeb;
+}
+
+/* .btn-header{
+    background-color: #c
+} */
+
+button{
+    border: none;
+    border-radius: 25px;
+    background-color: #f1eeeb;
+    padding: 5px 10px;
+}
+
+button:hover{
+    background-color: #acfcac;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    max-width: 52s0px;
+    box-shadow: none;
+    margin: 10px 0;
+}
+
+img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 40px; 
+    height: 40px; border-radius: 50%; object-fit: cover;
+    margin-right: 10px;
+}
+
+h5{
+    margin: 0; font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin: 2px 0 0 0; font-size: 14px;
+}
+
+.chat-messages {
+    padding: 10px;
+    overflow-y: auto;
+    height: 100px;
+    background-color: #f1eeeb9d;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.received {
+    background-color: #acfcac;
+    align-self: flex-start;
+}
+
+.sent {
+    background-color: #f1eeeb;
+    align-self: flex-end;
+    border: 1px solid #ccc;
+}
+
+.chat-input {
+    padding: 5px;
+    border-top: 1px #ccc;
+    background-color: #f1eeebd6;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#send-button{
+    width: 20%;
+    padding: 10px;
+    background-color: #075e54;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+figure{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+
+
+figcaption a{
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s ease-in-out;
+}
+figcaption:hover{
+    color: #000000a0;
+}
+
+#image{
+    width: 30px;
+    height: 30px;
+}
